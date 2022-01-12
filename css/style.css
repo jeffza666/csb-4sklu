@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Mitr:300,400,700&display=swap&subset=thai");
+h1 {
+  color: red;
+}
+.width200 {
+  width: 200px;
+  height: 200px;
+}
+.background-color {
+  background-color: #df3434;
+}
+.background-image {
+  background-image: url("/image/firefox.jpg");
+  background-position: center;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+}
+.border {
+  border: 10px solid red;
+  border: 10px dotted red;
+  border: 10px dashed red;
+  border-bottom: 5px solid blue;
+  border-left: 15px dotted green;
+}
+.margin {
+  margin: 50px 100px 30px 100px;
+  background-color: yellowgreen;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.padding {
+  background-color: goldenrod;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding: 50px 30px 20px 10px;
+}
+
+.width-height {
+  width: 300px;
+  height: 400px;
+  background-color: greenyellow;
+  width: 50%;
+  height: 30vw;
+  width: 200pt;
+  width: 15cm;
+  max-width: 200px;
+  width: 1000px;
+  max-height: 200px;
+  height: 100vh;
+}
+.mixed-width {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  /* margin: 50px; */
+  border: 10px solid red;
+}
+.outline {
+  outline: 15px double green;
+  outline-offset: 15px;
+  border: 10px solid red;
+  /* margin: 30px; */
+}
+.text {
+  margin: 100px;
+}
+.text p {
+  text-align: center;
+  /* text-align: justify; */
+}
+.text .left {
+  text-align: left;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.text .right {
+  text-align: right;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+.text .indent {
+  text-indent: 50px;
+  letter-spacing: 3px;
+  /* letter-spacing: -1px; */
+  font-size: 20px;
+  line-height: 30px;
+  word-spacing: 20px;
+  text-shadow: 5px 5px 10px red;
+}
+.font {
+  margin: 100px;
+  font-size: 20px;
+}
+.font p:first-child {
+  font-family: arial;
+}
+html {
+  font-size: 30px;
+}
+.font p:nth-child(2) {
+  font-family: "Mitr";
+  font-weight: normal;
+  font-size: 0.8em;
+}
+.font p:nth-child(3) {
+  font-family: "Mitr";
+  font-weight: normal;
+  font-size: 1em;
+  font-style: oblique;
+}
+
+.icon i:first-child {
+  color: red;
+  font-size: 16px;
+}
+.link a:link {
+  color: blue;
+}
+.link a:visited {
+  color: red;
+}
+.link a:active {
+  color: greenyellow;
+}
+.link a:hover {
+  color: orange;
+  background-color: black;
+}
+.list ul {
+  list-style-type: disc;
+  background: rebeccapurple;
+}
+.list ul li {
+  list-style-position: outside;
+  background-color: #df3434;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.display p:first-child {
+  display: none;
+}
+.display p:nth-child(2) {
+  display: block;
+}
+.display p:nth-child(3) {
+  display: inline;
+}
+.display p:nth-child(4) {
+  display: inline-block;
+}
+.display p:nth-child(6) {
+  display: inline;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 200px;
+}
+/* .flex .flex-item {
+  flex: 1;
+  height: 30px;
+  margin: 5px;
+  background-color: yellow;
+} */
+.flex .flex-item:first-child {
+  /* flex: 3; */
+  height: 30px;
+  width: 100px;
+  margin: 5px;
+  background-color: yellow;
+}
+.flex .flex-item:nth-child(2) {
+  /* flex: 3; */
+  height: 30px;
+  width: 100px;
+  margin: 5px;
+  background-color: yellow;
+}
+.position {
+  position: relative;
+  height: 1000px;
+}
+.position div:first-child {
+  position: static;
+}
+.position div:nth-child(2) {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.position div:nth-child(3) {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.position div:nth-child(4) {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.position div:nth-child(5) {
+  position: sticky;
+  top: 10px;
+  left: 0px;
+}
+.overflow {
+  overflow: auto;
+  height: 300px;
+}
+.overflow .box {
+  height: 1000px;
+  width: 150%;
+  background-color: #df3434;
+}
+.float {
+}
+
+.float .left {
+  float: left;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.float .right {
+  float: right;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.float .normal {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
